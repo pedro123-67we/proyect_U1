@@ -41,3 +41,25 @@ header{
 .links li a:hover{
     color: cornflowerblue;
 }
+
+.letras{
+    margin-left: 200px;
+    margin-top: 100px;
+    color: rgba(169, 169, 169, 0.791);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.nombre{
+    margin-left: 200px;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+.iconos{
+    margin-left: 200px;
+}
+.iconos i {
+    font-size: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
