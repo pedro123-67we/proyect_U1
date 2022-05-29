@@ -1,0 +1,43 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+}
+
+li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 20%;
+}
+
+.logo{
+    cursor: pointer;
+    width: 90px;
+}
+
+.links{
+    list-style: none;
+}
+
+.links li{
+    display: inline-block;
+    padding: 0% 20px;
+}
+.links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.links li a:hover{
+    color: cornflowerblue;
+}
